@@ -26,13 +26,12 @@
 - [x] Hover Effects
 - [x] Footer
 - [ ] Contact Section
-- [ ] About Section
+- [x] About Page
 
 ---
 
 # Phase 2 - Website Completion
 
-- [ ] About Page
 - [ ] Services Page
 - [ ] Contact Page
 - [ ] Portfolio Page

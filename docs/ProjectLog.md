@@ -29,6 +29,22 @@
 - Corrected homepage text and copyright entity
 - Completed homepage visual polish
 
+## July 14, 2026
+
+Completed the About page.
+
+Added:
+- Hero section
+- Company story
+- Three highlight cards
+- Mission statement
+- Shared navigation/footer
+- Hover animations
+- Responsive layout
+
+Status:
+Website now contains Home and About pages.
+
 ### Working On
 
 - About section
