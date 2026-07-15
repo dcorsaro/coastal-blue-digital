@@ -3,6 +3,7 @@
 ====================*/
 
 body {
+    margin: 0;
     background-color: #EAF4FF;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -175,6 +176,48 @@ button:hover{
 }
 
 /*======================
+  Call To Action
+  =================*/
+
+  .cta {
+    background-color: #0056B3;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+  }
+
+  .cta h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .cta p {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    line-height: 1.6;
+    font-size: 20px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: white;
+    color: #0056B3;
+    text-decoration: none;
+    padding: 18px 42px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0,15);
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: #EAF4FF;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0,20);
+  }
+
+/*======================
   Footer
   =================*/
 
@@ -202,4 +245,9 @@ button:hover{
 .footer a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #BFE3FF;
 }

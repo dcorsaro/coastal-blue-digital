@@ -21,10 +21,17 @@
 - Moved shared `.container` class into Global Styles
 - Learned proper HTML closing comments for major containers and sections
 - Why choose Us section
+- Added full-width Call to Action section
+- Added CTA button hover animation and shadow
+- Added footer email hover effect
+- Removed default browser body margin
+- Corrected Services section HTML nesting
+- Corrected homepage text and copyright entity
+- Completed homepage visual polish
 
 ### Working On
 
-- Homepage refinement
+- About section
 
 ### Next
 
