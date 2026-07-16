@@ -25,18 +25,21 @@
 - [x] Navigation Bar
 - [x] Hover Effects
 - [x] Footer
-- [ ] Contact Section
+- [x] Contact Section
 - [x] About Page
 
 ---
 
 # Phase 2 - Website Completion
 
-- [ ] Services Page
-- [ ] Contact Page
+- [x] Services Page
+- [x] Contact Page
+- [x] Pricing Page
 - [ ] Portfolio Page
+- [ ] Testimonials Page
 - [ ] FAQ Page
 - [ ] Privacy Policy
+
 
 ---
 

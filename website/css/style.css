@@ -274,6 +274,68 @@ button:hover{
     line-height: 1.6;
   }
 
+/*=====================
+  Contact Page
+  =================*/
+
+  .contact-hero {
+    background-color: #0056B3;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+  }
+
+  .contact-hero h1 {
+    font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-hero p {
+    font-size: 24px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .contact-content {
+    background-color: #F3F8FF;
+    padding: 60px 20px;
+  }
+
+  .contact-card {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .20);
+  }
+
+  .contact-card h2 {
+    color: #0056B3;
+    margin-top: 0;
+  }
+
+  .contact-card p {
+    line-height: 1.8;
+  }
+
+  .contact-card a {
+    color: #0056B3;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .contact-card a:hover {
+    text-decoration: underline;
+  }
+
 /*======================
   Call To Action
   =================*/
@@ -315,6 +377,120 @@ button:hover{
     transform: translateY(-3px);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0,20);
   }
+
+  /*====================
+    Pricing Page
+    ==============*/
+
+.pricing-hero {
+    background-color: #0056B3;
+    color: white;
+    padding: 80px 20px;
+}
+
+.pricing-hero h1 {
+    color: white;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-hero p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.pricing-content {
+    background-color: #EAF4FF;
+    padding: 50px 20px 80px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+}
+
+.pricing-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    transform: all 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.20);
+}
+
+.pricing-card h2 {
+    color: #0056B3;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.pricing-card h3 {
+    color: #003E7E;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prcing-description {
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.pricing-card ul {
+    padding-left: 22px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.pricing-button {
+    display: inline-block;
+    background-color: #0056B3;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: auto;
+    transition: all 0.3 ease;
+}
+
+.pricing-button:hover {
+    background-color: #003E7E;
+    transform: translateY(-3px);
+}
+
+.featured {
+    border: 3px solid #0056B3;
+    position: relative;
+}
+
+.featured:hover {
+    border-color: #003E7E;
+}
+
+.popular-label {
+    background-color: #0056B3;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 0 0 20px;
+}
+
 
 /*======================
   Footer

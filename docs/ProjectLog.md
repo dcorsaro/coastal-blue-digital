@@ -31,33 +31,70 @@
 
 ## July 14, 2026
 
-Completed the About page.
+Completed the About and Contact pages.
 
 Added:
-- Hero section
-- Company story
+- About page hero section
+- Company story section
 - Three highlight cards
 - Mission statement
-- Shared navigation/footer
+- Contact page hero section
+- Contact information card
+- Shared navigation/footer across all pages
+- Responsive layouts
 - Hover animations
-- Responsive layout
+- Footer cleanup and consistent styling
+- Shared page structure using <main>
 
 Status:
-Website now contains Home and About pages.
+
+Website now contains:
+- Home Page
+- About Page
+- Contact Page
 
 ### Working On
 
-- About section
+- Services page
 
 ### Next
 
-- About section
-- Contact Form
+- Mobile Responsiveness
+- Portfolio page
+- FAQ page
 - Pricing packages
-- Mobile responsiveness
 - SEO improvements
 
 ### Lessons Learned
 
 - Shared CSS classes such as `.container` should live in Global Styles.
 - HTML comments make it much easier to find matching closing tags.
+
+## July 15, 2026
+
+### Completed
+- Built Pricing page (pricing.html)
+- Added navigation link to Pricing page
+- Created three pricing packages:
+  - Starter
+  - Professional (Most Popular)
+  - Custom
+- Styled pricing cards with hover effects
+- Added featured package styling
+- Updated navigation across all pages
+- Corrected viewport meta tag on all pages
+- Confirmed responsive layout remains intact
+
+### Status
+Website now contains:
+- Home
+- Services
+- Pricing
+- About
+- Contact
+
+### Next
+- Build Portfolio page
+- Add project examples
+- Add testimonials
+- Improve mobile navigation
