@@ -336,6 +336,53 @@ button:hover{
     text-decoration: underline;
   }
 
+  .contact-form-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .15);
+    margin-top: 40px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-form label {
+    font-weight: bold;
+    color: #003E7E;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: inherit;
+  }
+
+  .contact-form textarea{
+    resize: vertical;
+  }
+
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #999;
+  }
+
+  .contact-form .pricing-button {
+    width: 280px;
+    align-self: center;
+    margin-top: 15px;
+    padding: 16px 30px;
+    font-size: 18px;
+  }
+
 /*======================
   Call To Action
   =================*/
@@ -491,6 +538,190 @@ button:hover{
     margin: 0 0 20px;
 }
 
+/*======================
+  Portfolio Page
+  =================*/
+
+  .portfolio-hero {
+    background-color: #0056B3;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .portfolio-hero h1 {
+    color: white;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .portfolio-hero p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.6;
+  }
+
+  .portfolio-content {
+    background-color: #EAF4FF;
+    padding: 80px 20px;
+  }
+
+  .portfolio-content h2 {
+    color: #0056B3;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 45px;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .portfolio-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+  }
+
+  .portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.20);
+  }
+
+  .portfolio-placeholder {
+    background-color: #0056B3;
+    color: white;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .portfolio-card-content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .portfolio-card h3 {
+    color: #0056B3;
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .portfolio-type {
+    color: #003E7E;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  .portfolio-card-content p {
+    line-height: 1.6;
+  }
+
+  .portfolio-card ul {
+    padding-left: 22px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-button {
+    display: inline-block;
+    background-color: #0056B3;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: auto;
+    transition: all 0.3s ease
+  }
+
+  .portfolio-button:hover {
+    background-color: #003E7E;
+    transform: translateY(-3px);
+  }
+
+  .portfolio-coming-soon {
+    display: block;
+    background-color: #EAF4FF;
+    color: #0056B3;
+    text-align: center;
+    padding: 16px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: auto;
+  }
+
+  .process-section {
+    background-color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .process-section h2 {
+    color: #0056B3;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .process-intro {
+    max-width: 750px;
+    margin: 0 auto 45px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.process-card {
+    background-color: #EAF4FF;
+    padding: 30px 25px;
+    border-radius: 10px;
+}
+
+.process-number {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #0056B3;
+    color: white;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.process-card h3 {
+    color: #0056B3;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.process-card p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
 
 /*======================
   Footer
