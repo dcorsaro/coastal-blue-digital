@@ -42,10 +42,17 @@
 
         <div class="container">
 
-            <h1>Contact Coastal Blue Digital</h1>
+            <h1>Let's Build Your Next Website</h1>
 
             <p>
-                Ready to build or improve your online presence? We'd love to hear from you.
+                Whether you need a brand-new website or a complete redesign, we'll help bring your business 
+                online with a modern, professional presence.
+            </p>
+
+            <p class="hero-subtext">
+                Whether you're starting from scratch or refreshing 
+                an existing website, we're here to help every step
+                of the way.
             </p>
         </div>
      </section> <!-- .contact-hero -->
@@ -56,15 +63,15 @@
 
         <div class="contact-card">
 
-            <h2>Let's Talk</h2>
+            <h2>Get in Touch</h2>
 
             <p>
-                Whether you need a brand new website, a redesign, or simply have
-                questions about getting started, we're here to help.
+                Whether you need a new website, a redesign, or simply have
+                questions, we're here to help.
             </p>
 
             <p>
-                Email us anytime and we'll respond as quickly as possible.
+                Send us a message anytime—we'll get back to you as soon as possible.
             </p>
 
             <p>
@@ -84,22 +91,22 @@
                 We'll follow up as soon as possible.
             </p>
 
-            <form class="contact-form">
+            <form class="contact-form" action="php/contact.php" method="post">
 
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Your Name">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
 
             <label for="business">Business Name</label>
-            <input type="text" id="business" placeholder="Business Name">
+            <input type="text" id="business" name="business" placeholder="Business Name">
 
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Email Address">
+            <input type="email" id="email" name="email" placeholder="Email Address">
 
             <label for="phone">Phone</label>
-            <input type="tel" id="phone" placeholder="Phone Number">
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
 
             <label for="message">Tell us about your project</label>
-            <textarea id="message" rows="8"></textarea>
+            <textarea id="message" name="message" rows="8" required></textarea>
 
             <button type="submit" class="pricing-button">
                 Request Consultation

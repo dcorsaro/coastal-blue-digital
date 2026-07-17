@@ -282,19 +282,31 @@ button:hover{
     background-color: #0056B3;
     color: white;
     text-align: center;
-    padding: 70px 20px;
+    padding: 50px 20px;
   }
 
   .contact-hero h1 {
+    color: white;
     font-size: 56px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .contact-hero p {
-    font-size: 24px;
-    max-width: 700px;
+    font-size: 18px;
+    max-width: 650px;
     margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .contact-hero .hero-subtext {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.7;
+    opacity: 0.95;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .contact-content {
@@ -382,6 +394,43 @@ button:hover{
     padding: 16px 30px;
     font-size: 18px;
   }
+
+/*====================
+  Thank You Page
+  ==================*/
+
+  .thank-you-content {
+    background-color: #f3f8ff;
+    min-height: 600px;
+    padding: 100px 20px;
+}
+
+.thank-you-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.thank-you-card h1 {
+    color: #0056b3;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.thank-you-card p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.thank-you-card .pricing-button {
+    margin-top: 20px;
+}
 
 /*======================
   Call To Action

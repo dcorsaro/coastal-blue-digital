@@ -12,7 +12,7 @@
 - [x] Business Email
 - [x] Distribution Lists
 - [ ] Business Cards
-- [ ] Logo
+- [x] Logo
 - [ ] Brand Guidelines
 
 ---
@@ -35,10 +35,12 @@
 - [x] Services Page
 - [x] Contact Page
 - [x] Pricing Page
-- [ ] Portfolio Page
+- [x] Portfolio Page
 - [ ] Testimonials Page
 - [ ] FAQ Page
 - [ ] Privacy Policy
+- [x] Thank You Page
+- [ ] Working Contact Form
 
 
 ---
